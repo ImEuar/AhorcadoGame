@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahorcado</title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/style.css">
+    <style type="text/css">
+        body{
+            background-color: #262626;
+        }
+    </style>
+</head>
+<body>
+    <div class="div_contenedor">
+        <div class="div1">
+            <center>
+                <div id="div1">
+                    <p class="p1">Juego del ahorcado</p>
+                <p class="p2">¡Trata de adivinar la palabra antes que cuelguen a este hombre!</p>
+                <div id="imagen" class="div2"></div>
+                <p id="palabra" class="p3"></p>
+                <form action="" method="post" id="teclado">
+                    <fieldset id="teclado" class="fieldset">
+                        <fieldset class="fieldset">
+                            <button value="q" onclick="btnQ()" id="q" class="button">q</button>
+                            <button value="w" onclick="btnW()" id="w" class="button">w</button>
+                            <button value="e" onclick="btnE()" id="e" class="button">e</button>
+                            <button value="r" onclick="btnR()" id="r" class="button">r</button>
+                            <button value="t" onclick="btnT()" id="t" class="button">t</button>
+                            <button value="y" onclick="btnY()" id="y" class="button">y</button>
+                            <button value="u" onclick="btnU()" id="u" class="button">u</button>
+                            <button value="i" onclick="btnI()" id="i" class="button">i</button>
+                            <button value="o" onclick="btnO()" id="o" class="button">o</button>
+                            <button value="p" onclick="btnP()" id="p" class="button">p</button>
+                        </fieldset>
+                        <fieldset class="fieldset">
+                            <button value="a" onclick="btnA()" id="a" class="button">a</button>
+                            <button value="s" onclick="btnS()" id="s" class="button">s</button>
+                            <button value="d" onclick="btnD()" id="d" class="button">d</button>
+                            <button value="f" onclick="btnF()" id="f" class="button">f</button>
+                            <button value="g" onclick="btnG()" id="g" class="button">g</button>
+                            <button value="h" onclick="btnH()" id="h" class="button">h</button>
+                            <button value="j" onclick="btnJ()" id="j" class="button">j</button>
+                            <button value="k" onclick="btnK()" id="k" class="button">k</button>
+                            <button value="l" onclick="btnL()" id="l" class="button">l</button>
+                            <button value="ñ" onclick="btnÑ()" id="ñ" class="button">ñ</button>
+                        </fieldset>
+                        <fieldset class="fieldset">
+                            <button value="z" onclick="btnZ()" id="z" class="button">z</button>
+                            <button value="x" onclick="btnX()" id="x" class="button">x</button>
+                            <button value="c" onclick="btnC()" id="c" class="button">c</button>
+                            <button value="v" onclick="btnV()" id="v" class="button">v</button>
+                            <button value="b" onclick="btnB()" id="b" class="button">b</button>                    
+                            <button value="n" onclick="btnN()" id="n" class="button">n</button>
+                            <button value="m" onclick="btnM()" id="m" class="button">m</button>
+                        </fieldset>
+                    </fieldset>
+                </form>
+                </div>
+            </center>
+        </div>
+    </div>
+    <script src="functions/functions.js"></script>
+</body>
+</html>
